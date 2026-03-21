@@ -2,7 +2,7 @@
   "metadata": {
     "figmaFileId": "0:0",
     "figmaFileName": "Basalt Design System",
-    "exportedAt": "2026-03-21T21:52:28.866Z"
+    "exportedAt": "2026-03-21T21:58:04.096Z"
   },
   "tokens": {
     "color": {
@@ -7523,10 +7523,10 @@
     }
   ],
   "summary": {
-    "totalTokens": 485,
+    "totalTokens": 484,
     "totalComponents": 42,
     "totalVariants": 118,
     "totalIcons": 11,
-    "generatedAt": "2026-03-21T21:52:28.866Z"
+    "generatedAt": "2026-03-21T21:58:04.096Z"
   }
 }
