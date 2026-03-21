@@ -1,4 +1,22 @@
 {
+  "$schema": "https://tr.designtokens.org/format/",
+  "$metadata": {
+    "exportedFrom": "basalt.run",
+    "figmaFileId": "0:0",
+    "figmaFileName": "Basalt Design System",
+    "exportedAt": "2026-03-21T21:52:28.866Z",
+    "tokenSetOrder": [
+      "color",
+      "spacing",
+      "borderWidth",
+      "radius",
+      "typography",
+      "iconSize",
+      "selection",
+      "skeleton",
+      "code"
+    ]
+  },
   "color": {
     "white": {
       "$type": "color",
@@ -223,31 +241,31 @@
       },
       "bg": {
         "$type": "color",
-        "$value": "#e11d48"
+        "$value": "{color.danger.600}"
       },
       "bgHover": {
         "$type": "color",
-        "$value": "#be123c"
+        "$value": "{color.danger.700}"
       },
       "bgSubtle": {
         "$type": "color",
-        "$value": "#fff1f2"
+        "$value": "{color.danger.50}"
       },
       "bgSubtleHover": {
         "$type": "color",
-        "$value": "#ffe4e6"
+        "$value": "{color.danger.100}"
       },
       "text": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "{color.white}"
       },
       "textSubtle": {
         "$type": "color",
-        "$value": "#be123c"
+        "$value": "{color.danger.700}"
       },
       "border": {
         "$type": "color",
-        "$value": "#fda4af"
+        "$value": "{color.danger.300}"
       }
     },
     "info": {
@@ -295,19 +313,19 @@
     "background": {
       "page": {
         "$type": "color",
-        "$value": "#fafaf9"
+        "$value": "{color.stone.50}"
       },
       "surface": {
         "$type": "color",
-        "$value": "#f5f5f4"
+        "$value": "{color.stone.100}"
       },
       "elevated": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "{color.white}"
       },
       "sunken": {
         "$type": "color",
-        "$value": "#e7e5e4"
+        "$value": "{color.stone.200}"
       },
       "overlay": {
         "$type": "color",
@@ -315,128 +333,128 @@
       },
       "inverse": {
         "$type": "color",
-        "$value": "#1c1917"
+        "$value": "{color.stone.900}"
       }
     },
     "text": {
       "primary": {
         "$type": "color",
-        "$value": "#1c1917"
+        "$value": "{color.stone.900}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "#57534e"
+        "$value": "{color.stone.600}"
       },
       "tertiary": {
         "$type": "color",
-        "$value": "#a8a29e"
+        "$value": "{color.stone.400}"
       },
       "onInverse": {
         "$type": "color",
-        "$value": "#fafaf9"
+        "$value": "{color.stone.50}"
       },
       "onAccent": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "{color.white}"
       },
       "link": {
         "$type": "color",
-        "$value": "#ea580c"
+        "$value": "{color.ember.600}"
       },
       "linkHover": {
         "$type": "color",
-        "$value": "#c2410c"
+        "$value": "{color.ember.700}"
       },
       "code": {
         "$type": "color",
-        "$value": "#c2410c"
+        "$value": "{color.ember.700}"
       }
     },
     "border": {
       "default": {
         "$type": "color",
-        "$value": "#e7e5e4"
+        "$value": "{color.stone.200}"
       },
       "strong": {
         "$type": "color",
-        "$value": "#d6d3d1"
+        "$value": "{color.stone.300}"
       },
       "subtle": {
         "$type": "color",
-        "$value": "#f5f5f4"
+        "$value": "{color.stone.100}"
       },
       "inverse": {
         "$type": "color",
-        "$value": "#44403c"
+        "$value": "{color.stone.700}"
       },
       "focus": {
         "$type": "color",
-        "$value": "#f97316"
+        "$value": "{color.ember.500}"
       },
       "accent": {
         "$type": "color",
-        "$value": "#fb923c"
+        "$value": "{color.ember.400}"
       }
     },
     "action": {
       "primary": {
         "bg": {
           "$type": "color",
-          "$value": "#f97316"
+          "$value": "{color.ember.500}"
         },
         "bgHover": {
           "$type": "color",
-          "$value": "#ea580c"
+          "$value": "{color.ember.600}"
         },
         "bgActive": {
           "$type": "color",
-          "$value": "#c2410c"
+          "$value": "{color.ember.700}"
         },
         "bgDisabled": {
           "$type": "color",
-          "$value": "#e7e5e4"
+          "$value": "{color.stone.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#ffffff"
+          "$value": "{color.white}"
         },
         "textDisabled": {
           "$type": "color",
-          "$value": "#a8a29e"
+          "$value": "{color.stone.400}"
         }
       },
       "neutral": {
         "bg": {
           "$type": "color",
-          "$value": "#ffffff"
+          "$value": "{color.white}"
         },
         "bgHover": {
           "$type": "color",
-          "$value": "#f5f5f4"
+          "$value": "{color.stone.100}"
         },
         "bgActive": {
           "$type": "color",
-          "$value": "#e7e5e4"
+          "$value": "{color.stone.200}"
         },
         "bgDisabled": {
           "$type": "color",
-          "$value": "#f5f5f4"
+          "$value": "{color.stone.100}"
         },
         "text": {
           "$type": "color",
-          "$value": "#44403c"
+          "$value": "{color.stone.700}"
         },
         "textHover": {
           "$type": "color",
-          "$value": "#1c1917"
+          "$value": "{color.stone.900}"
         },
         "border": {
           "$type": "color",
-          "$value": "#d6d3d1"
+          "$value": "{color.stone.300}"
         },
         "borderHover": {
           "$type": "color",
-          "$value": "#a8a29e"
+          "$value": "{color.stone.400}"
         }
       },
       "ghost": {
@@ -446,19 +464,19 @@
         },
         "bgHover": {
           "$type": "color",
-          "$value": "#f5f5f4"
+          "$value": "{color.stone.100}"
         },
         "bgActive": {
           "$type": "color",
-          "$value": "#e7e5e4"
+          "$value": "{color.stone.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#44403c"
+          "$value": "{color.stone.700}"
         },
         "textHover": {
           "$type": "color",
-          "$value": "#1c1917"
+          "$value": "{color.stone.900}"
         }
       }
     },
@@ -466,88 +484,88 @@
       "positive": {
         "bg": {
           "$type": "color",
-          "$value": "#f0fdf4"
+          "$value": "{color.positive.50}"
         },
         "border": {
           "$type": "color",
-          "$value": "#bbf7d0"
+          "$value": "{color.positive.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#15803d"
+          "$value": "{color.positive.700}"
         },
         "icon": {
           "$type": "color",
-          "$value": "#22c55e"
+          "$value": "{color.positive.500}"
         }
       },
       "warning": {
         "bg": {
           "$type": "color",
-          "$value": "#fffbeb"
+          "$value": "{color.warning.50}"
         },
         "border": {
           "$type": "color",
-          "$value": "#fef08a"
+          "$value": "{color.warning.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#a16207"
+          "$value": "{color.warning.700}"
         },
         "icon": {
           "$type": "color",
-          "$value": "#eab308"
+          "$value": "{color.warning.500}"
         }
       },
       "danger": {
         "bg": {
           "$type": "color",
-          "$value": "#fff1f2"
+          "$value": "{color.danger.50}"
         },
         "border": {
           "$type": "color",
-          "$value": "#fecdd3"
+          "$value": "{color.danger.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#be123c"
+          "$value": "{color.danger.700}"
         },
         "icon": {
           "$type": "color",
-          "$value": "#f43f5e"
+          "$value": "{color.danger.500}"
         }
       },
       "info": {
         "bg": {
           "$type": "color",
-          "$value": "#eff6ff"
+          "$value": "{color.info.50}"
         },
         "border": {
           "$type": "color",
-          "$value": "#bfdbfe"
+          "$value": "{color.info.200}"
         },
         "text": {
           "$type": "color",
-          "$value": "#1d4ed8"
+          "$value": "{color.info.700}"
         },
         "icon": {
           "$type": "color",
-          "$value": "#3b82f6"
+          "$value": "{color.info.500}"
         }
       }
     },
     "brand": {
       "primary": {
         "$type": "color",
-        "$value": "#f97316"
+        "$value": "{color.ember.500}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "#1c1917"
+        "$value": "{color.stone.900}"
       },
       "muted": {
         "$type": "color",
-        "$value": "#fef3c7"
+        "$value": "{color.ember.100}"
       }
     }
   },
@@ -659,85 +677,85 @@
     "component": {
       "xs": {
         "$type": "dimension",
-        "$value": "4px"
+        "$value": "{spacing.1}"
       },
       "sm": {
         "$type": "dimension",
-        "$value": "8px"
+        "$value": "{spacing.2}"
       },
       "md": {
         "$type": "dimension",
-        "$value": "12px"
+        "$value": "{spacing.3}"
       },
       "lg": {
         "$type": "dimension",
-        "$value": "16px"
+        "$value": "{spacing.4}"
       },
       "xl": {
         "$type": "dimension",
-        "$value": "24px"
+        "$value": "{spacing.6}"
       }
     },
     "inline": {
       "xs": {
         "$type": "dimension",
-        "$value": "6px"
+        "$value": "{spacing.1-5}"
       },
       "sm": {
         "$type": "dimension",
-        "$value": "10px"
+        "$value": "{spacing.2-5}"
       },
       "md": {
         "$type": "dimension",
-        "$value": "14px"
+        "$value": "{spacing.3-5}"
       },
       "lg": {
         "$type": "dimension",
-        "$value": "20px"
+        "$value": "{spacing.5}"
       }
     },
     "layout": {
       "xs": {
         "$type": "dimension",
-        "$value": "8px"
+        "$value": "{spacing.2}"
       },
       "sm": {
         "$type": "dimension",
-        "$value": "12px"
+        "$value": "{spacing.3}"
       },
       "md": {
         "$type": "dimension",
-        "$value": "16px"
+        "$value": "{spacing.4}"
       },
       "lg": {
         "$type": "dimension",
-        "$value": "24px"
+        "$value": "{spacing.6}"
       },
       "xl": {
         "$type": "dimension",
-        "$value": "32px"
+        "$value": "{spacing.8}"
       },
       "2xl": {
         "$type": "dimension",
-        "$value": "48px"
+        "$value": "{spacing.12}"
       },
       "3xl": {
         "$type": "dimension",
-        "$value": "80px"
+        "$value": "{spacing.20}"
       }
     },
     "page": {
       "x": {
         "$type": "dimension",
-        "$value": "24px"
+        "$value": "{spacing.6}"
       },
       "y": {
         "$type": "dimension",
-        "$value": "24px"
+        "$value": "{spacing.6}"
       },
       "xWide": {
         "$type": "dimension",
-        "$value": "32px"
+        "$value": "{spacing.8}"
       }
     },
     "sidebar": {
@@ -784,27 +802,27 @@
   "radius": {
     "none": {
       "$type": "dimension",
-      "$value": "0px"
+      "$value": "{radius.none}"
     },
     "xs": {
       "$type": "dimension",
-      "$value": "2px"
+      "$value": "{radius.xs}"
     },
     "sm": {
       "$type": "dimension",
-      "$value": "4px"
+      "$value": "{radius.sm}"
     },
     "md": {
       "$type": "dimension",
-      "$value": "6px"
+      "$value": "{radius.md}"
     },
     "lg": {
       "$type": "dimension",
-      "$value": "8px"
+      "$value": "{radius.lg}"
     },
     "xl": {
       "$type": "dimension",
-      "$value": "12px"
+      "$value": "{radius.xl}"
     },
     "2xl": {
       "$type": "dimension",
@@ -816,7 +834,7 @@
     },
     "full": {
       "$type": "dimension",
-      "$value": "9999px"
+      "$value": "{radius.full}"
     }
   },
   "typography": {
@@ -952,67 +970,67 @@
   "selection": {
     "background": {
       "$type": "color",
-      "$value": "#fef3c7"
+      "$value": "{color.ember.100}"
     },
     "text": {
       "$type": "color",
-      "$value": "#7c2d12"
+      "$value": "{color.ember.900}"
     },
     "border": {
       "$type": "color",
-      "$value": "#fcd34d"
+      "$value": "{color.ember.300}"
     }
   },
   "skeleton": {
     "base": {
       "$type": "color",
-      "$value": "#e7e5e4"
+      "$value": "{color.stone.200}"
     },
     "highlight": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "{color.stone.100}"
     }
   },
   "code": {
     "background": {
       "$type": "color",
-      "$value": "#f5f5f4"
+      "$value": "{color.stone.100}"
     },
     "text": {
       "$type": "color",
-      "$value": "#292524"
+      "$value": "{color.stone.800}"
     },
     "comment": {
       "$type": "color",
-      "$value": "#a8a29e"
+      "$value": "{color.stone.400}"
     },
     "keyword": {
       "$type": "color",
-      "$value": "#ea580c"
+      "$value": "{color.ember.600}"
     },
     "string": {
       "$type": "color",
-      "$value": "#15803d"
+      "$value": "{color.positive.700}"
     },
     "number": {
       "$type": "color",
-      "$value": "#2563eb"
+      "$value": "{color.info.600}"
     },
     "function": {
       "$type": "color",
-      "$value": "#1d4ed8"
+      "$value": "{color.info.700}"
     },
     "variable": {
       "$type": "color",
-      "$value": "#44403c"
+      "$value": "{color.stone.700}"
     },
     "operator": {
       "$type": "color",
-      "$value": "#78716c"
+      "$value": "{color.stone.500}"
     },
     "border": {
       "$type": "color",
-      "$value": "#e7e5e4"
+      "$value": "{color.stone.200}"
     }
   }
 }
