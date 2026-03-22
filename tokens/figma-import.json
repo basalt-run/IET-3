@@ -4,7 +4,7 @@
     "exportedFrom": "basalt.run",
     "figmaFileId": "0:0",
     "figmaFileName": "Basalt Design System",
-    "exportedAt": "2026-03-22T03:22:21.984Z",
+    "exportedAt": "2026-03-22T03:29:21.362Z",
     "tokenSetOrder": [
       "color",
       "spacing",
@@ -802,27 +802,27 @@
   "radius": {
     "none": {
       "$type": "dimension",
-      "$value": "{radius.none}"
+      "$value": "0px"
     },
     "xs": {
       "$type": "dimension",
-      "$value": "{radius.xs}"
+      "$value": "2px"
     },
     "sm": {
       "$type": "dimension",
-      "$value": "{radius.sm}"
+      "$value": "4px"
     },
     "md": {
       "$type": "dimension",
-      "$value": "{radius.md}"
+      "$value": "6px"
     },
     "lg": {
       "$type": "dimension",
-      "$value": "{radius.lg}"
+      "$value": "8px"
     },
     "xl": {
       "$type": "dimension",
-      "$value": "{radius.xl}"
+      "$value": "12px"
     },
     "2xl": {
       "$type": "dimension",
@@ -834,7 +834,7 @@
     },
     "full": {
       "$type": "dimension",
-      "$value": "{radius.full}"
+      "$value": "9999px"
     }
   },
   "typography": {
